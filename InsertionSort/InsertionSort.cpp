@@ -67,5 +67,10 @@ void display()
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input(); //memanggil prosedur untuk menginput data
+    insertionSort(); //memanggil prosedur bubblesort
+    display(); //memanggil prosedur untuk menampilkan data yang telah diproses
+    system("pause");
+
+    return 0;
 }
